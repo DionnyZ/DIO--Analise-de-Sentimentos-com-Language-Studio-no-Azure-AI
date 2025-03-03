@@ -39,17 +39,20 @@ When it comes to the neural TTS in
 When it comes to the neural TTS in order to
 ```
 
-Esse serviço pode ser utilizado em videos chamadas ou transmições ao vivo para criar a legenda em tempo real, melhorando a acessibilidade e o entendimento do conteúdo.
+<img src="/images/legenda_em_tempo_real.png" width="600">
 
+Esse serviço pode ser utilizado em videos chamadas ou transmições ao vivo para criar legendas em tempo real, melhorando a acessibilidade e o entendimento do conteúdo.
 
 ## Language Studio
 
 O Languade Studio oferece serviços, como:
  - Extração de informação de textos
  - Classificação de texto para análise de sentimento
- - Customização de resposta para uma lista de perguntas
+ - Customização de respostas para uma lista de perguntas
 
 O serviço utilizado para o desafio foi o de analisar o sentimento a partir de um texto.
+
+Foi feito a análise de sentimento do seguinte texto:
 
 ```
 Long waits...BUT FOR GOOD REASON. Some awesome Italian food and great vibes. Contoso Bistro always has live music or events going on to keep you entertained. The food is good enough to keep me entertained though!
@@ -57,3 +60,12 @@ Long waits...BUT FOR GOOD REASON. Some awesome Italian food and great vibes. Con
         The Contoso Bistro lasagna is a classic! The outdoor back patio is such a vibe, especially in the summer. Great service as well :) Love this place and will be back for more.
 ```
 
+A imagem a seguir exibe qual foi o sentimento detectado no texto. Nesse caso foi misto, voltado mais para o positivo.
+
+<img src="/images/analise_de_sentimento_1.png" width="300">
+
+A próxima imagem exibe como a análise foi feita, indicando quais foram as palavras chaves e o sentimento detectado nessa sentença.
+
+<img src="/images/analise_de_sentimento_2.png" width="600">
+
+Esse serviço pode ser utilizado para analisar a opinião de um público muito grande, reduzindo o tempo de análise caso fosse feito manualmente.
